@@ -1,0 +1,201 @@
+/* Pallette
+#0C2D57
+#FC6736
+#FFB0B0
+#EFECEC
+*/
+
+header {
+    background-color: #0C2D57;
+    padding: 16px 0;
+    border-bottom: 2px solid #EFECEC;
+}
+
+body {
+    background-color: #EFECEC;
+}
+
+header .container {
+    align-items: center;
+}
+
+h1 a {
+    font-family: 'Courgette', cursive;
+    color: #EFECEC;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.carousel .carousel-inner .carousel-item img {
+    width: 100vw;
+}
+
+.fancy-text {
+    font-family: 'Recursive', sans-serif;
+}
+
+#about i {
+    color: #FC6736;
+}
+
+header .nav .nav-link {
+    color: #fff;
+}
+
+header .nav .nav-link.active {
+    background-color: #FC6736;
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.navbar-toggler[aria-expanded="true"] {
+    background-color: #EFECEC;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-expand {
+    background-color: steelblue;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    padding: 8px;
+    border-radius: 0;
+}
+
+.btn-expand i {
+    color: #fff;
+}
+
+.btn-expand[aria-expanded="true"] {
+    background-color: #0C2D57;
+}
+
+section {
+    border-top: 4px solid #0C2D57;
+    background-color: #fff;
+    padding: 16px;
+}
+
+#about .row {
+    align-items: center;
+}
+
+section h2, h3, h4 {
+    color: #0C2D57;
+}
+
+section .nav a.nav-link {
+    color: #0C2D57;
+}
+
+section .nav a.nav-link.active {
+    background-color: #EFECEC;
+    color: #0C2D57;
+    font-weight: bold;
+    border-color: #0C2D57;
+}
+
+section .nav button.nav-link {
+    background-color: #EFECEC;
+    color:#0C2D57;
+    border-radius: 0;
+    margin: 0 1px;
+}
+
+section .nav button.nav-link i {
+    color: #0C2D57;
+}
+
+section .nav button.nav-link:hover {
+    background-color:rgba(70, 130, 180, 0.25);
+}
+
+section .nav button.nav-link.active {
+    background-color: steelblue;
+    font-weight: bold;
+}
+
+section .nav button.nav-link.active i {
+    color: #fff;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #0C2D57;
+}
+
+.btn-primary {
+    background-color: #FC6736;
+    border-color: #FC6736;
+}
+
+.btn-primary:hover {
+    background-color: #ff5a22;
+    border-color: #EFECEC;
+}
+
+.btn-success {
+    background-color: #0C2D57;
+    border-color: #0C2D57;
+}
+
+.btn-success:hover {
+    background-color: #153f75;
+    border-color: #EFECEC;
+}
+
+.price {
+    color: teal;
+    font-weight: bold;
+}
+
+.price-old {
+    color: crimson;
+    text-decoration: line-through;
+    font-style: oblique;
+}
+
+#high .btn-success {
+    background-color: teal;
+    border-color: teal;
+}
+
+.card-tag {
+    position: absolute;
+    top: 3%;
+    left: 3%;
+}
+
+.input-group-append button {
+    background-color: seagreen;
+    border-bottom-left-radius: 0%;
+    border-top-left-radius: 0%;
+    border-color: rgba(0,0,0,0.15);
+}
+
+.input-group-append button:hover {
+    background-color: mediumseagreen;
+}
+
+.input-group-append button i {
+    color: #fff;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #0C2D57;
+    color: #fff;
+    padding: 8px;
+}
+
+footer i {
+    color: #FFB0B0;
+}
